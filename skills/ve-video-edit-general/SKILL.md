@@ -11,7 +11,7 @@ Turn raw takes + a script into a finished ad. The output is a 1080×1920 MP4 wit
 
 Before planning any edit, read `references/video-editing-standards.md` in full. It is the one source of truth for pacing, cuts, footage, captions, on-screen text, audio, end cards and variations; this skill doesn't repeat it. Rules tagged `cut` are yours to apply while editing. Then load the brand's row from `references/brand-house-style.md` into the plan's `fix_words` (add a row if the brand isn't there yet).
 
-The defaults that matter most (from about 3,000 Frame.io review comments on real ad edits):
+The defaults that matter most:
 - **Organic by default:** no music, no end card, no transitions or sound effects, no stock, lowercase on-screen copy. Produced elements only when the brief asks, and never mixed with organic ones.
 - **Every video gets a hook text overlay** that isn't the captions (`"hook": true` callout on the first line; `validate_plan.py` R5 refuses a plan without one). Captions are hidden while it's on screen and start when it leaves; `render.py` does this.
 - **Captions in sentence case** (`caption_case`, default `"sentence"`), not ALL CAPS.

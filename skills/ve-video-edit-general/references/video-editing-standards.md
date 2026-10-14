@@ -4,7 +4,7 @@ Paid social (Meta, TikTok) performance creative. Read fully before cutting anyth
 
 Where a rule has a number, the number is the default, not a suggestion. Your reviewer's feedback beats this document; log what changed in section 12.
 
-These rules started as the house standards of a performance creative agency, built from about 3,000 Frame.io review comments on real ad edits. Make them yours: change any rule your team disagrees with, and let `/apply-notes` add new ones as you review.
+These rules started as the house standards of a performance creative agency, built from review notes on real ad edits. Make them yours: change any rule your team disagrees with, and let `/apply-notes` add new ones as you review.
 
 **Tags.** Every rule says who handles it:
 - `cut`: do it while editing.

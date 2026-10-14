@@ -2,7 +2,7 @@
 
 Claude Code skills for editing performance video ads (Meta, TikTok) without opening a timeline. Hand Claude a brief and a folder of raw footage. It cuts a finished 9:16 ad, checks its own work, and gets better every time you leave a review note.
 
-These are the skills from the [AI video editing livestream](https://www.youtube.com/watch?v=GQey2B90__4).
+These are the skills from the [AI video editing livestream](https://www.youtube.com/watch?v=GQey2B90__4). The full transcript, with a summary, is in [`transcript/`](transcript/2026-10-13-ai-video-editing-livestream.md).
 
 ## What's in here
 
@@ -54,7 +54,7 @@ Projects live in `~/Video Edits/<CODE>/` (set `REVIEW_ROOT` to change it). Finis
 
 ## Make it yours
 
-- **Edit `video-editing-standards.md`.** It's a starting point built from about 3,000 review comments on real ad edits. Change any rule your team disagrees with. Better still, have your best editor review 20 ads in the app and let the notes rewrite it.
+- **Edit `video-editing-standards.md`.** It's a starting point built from review notes on real ad edits. Change any rule your team disagrees with. Better still, have your best editor review 20 ads in the app and let the notes rewrite it.
 - **Add your brands to `brand-house-style.md`** (same folder): exact brand, product and URL spellings, plus the US/UK market. Captions are corrected to it and QA checks against it.
 - **Build style skills on top.** Give Claude three or four example ads in one edit style and ask for a skill that layers on `ve-video-edit-general`. Rule 2.3 of the standards says what a style skill may override.
 

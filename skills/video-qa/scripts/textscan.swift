@@ -1,6 +1,5 @@
 // textscan — sample a video's frames and OCR the burned-in text with Apple Vision, keeping WHERE each line sits.
-// Based on typo-check's frameocr (personal/work/skills-to-test/typo-check), but outputs boxes so video-qa can
-// check the safe zone, the hook overlay and captions on any export (ASS text, PNG overlays or a human edit).
+// Outputs boxes so video-qa can check the safe zone, the hook overlay and captions on any export (ASS text, PNG overlays or a human edit).
 //
 //   textscan <video> [--fps 4] [--min-conf 0.3] [--lang en-US]   > scan.jsonl
 //
